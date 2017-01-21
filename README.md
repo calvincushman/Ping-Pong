@@ -44,22 +44,21 @@
 
 * Clone repository
 * Open index.html
-
+OR
 ### See on GitHub.io
 
-[https://bseaver.github.io/roman-numerals/](https://bseaver.github.io/roman-numerals/)
 
 ### Known Issues
 
-* None
+* there are many issues with the code present here. very low functionality, if you happen to see anything or have any pointers please do not hesitate to contact me!
 
 ### Support
 
-* None
+* I can be reached at calvincushman@gmail.com
 
 ### Copyright
 
-* Benjamin T. Seaver, Calvin Cushman
+* Calvin Cushman 2017
 
 ### license
 

@@ -1,25 +1,17 @@
-var counting = function () {
-  
-}
-
-var inputCounter = function(userInput) {
-  var result;
-  var count = []
-
-
-return result;
-};
-  //count up to user input number
-// });
-
-  $(document).ready(function() {
-
+$(document).ready(function() {
     $("form").submit(function(event){
       event.preventDefault();
       var userInput = parseInt( $("#inputNumber").val() );
+      for (index=1; index<=userInput; index+=1) {
+        $("button#submit").click(function() {
+        $("ul").addClass("li");
+        });
+       }
+       var pingPongOutput = (userInput);
 
-    var pingPongOutput = inputCounter(userInput);
-    // Fade out out and in to see change
+       if (!pingPongOutput) {
+         pingPongOutput = "Please input a number"
+      }
     $("#pingPongOutput").text(pingPongOutput);
    });
   });
